@@ -1,11 +1,11 @@
 function setup() {
-    var canvas = createCanvas(800, 800);
+    var canvas = createCanvas(600, 400);
     canvas.parent("p5container");
+
+    background(200);
 }
 
 function draw() {
-    background(220);
-
-    fill(255, 255, 255);
-    ellipse(400, 400, 200);
+    rect(mouseX, mouseY, 100, 170);
+    
 }
